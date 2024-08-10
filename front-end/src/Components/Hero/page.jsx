@@ -7,7 +7,7 @@ function Hero() {
             <img className='absolute inset-0 w-full h-96 object-cover' src="banner01.jpg" alt="banner"/>
             <h1
             className=
-            'relative inset-0 flex top-40 justify-center text-white font-extrabold text-2xl lg:text-5xl'>
+            'relative inset-0 flex top-40 justify-center text-white font-extrabold text-2xl sm:text-4xl lg:text-5xl'>
               Destination Weddings
             </h1>
         </div>
