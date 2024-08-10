@@ -3,8 +3,14 @@
     justify-content: space-between;
     background-color: var(--tropicalPeach);
     padding: 15px;
+    color:white;
 }
 
+
+.options{
+    display: flex;
+    gap: 5px;
+}
 
 @media screen and (max-width:1024px) {
     .menu{

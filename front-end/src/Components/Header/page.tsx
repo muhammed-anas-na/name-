@@ -5,13 +5,21 @@ function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <h1>Company Name</h1>
+        <h1 className='italic'>Kamasuthra</h1>
       </div>
       <div className={styles.menu}>
-        <h1>Company Name 02</h1>
+        <ul className='flex gap-14'>
+          <li>Home</li>
+          <li>About</li>
+          <li>Vendors</li>
+          <li>Shop</li>
+        </ul>
       </div>
       <div className={styles.options}>
-        <h1>Company Name 03</h1>
+        <button>🔍</button>
+        <button className='bg-rose-300 px-4 rounded-xl'>
+          Login
+        </button>
       </div>
     </div>
   )
