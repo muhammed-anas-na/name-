@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './header.module.css';
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -17,9 +18,9 @@ function Header() {
       </div>
       <div className={styles.options}>
         <button>🔍</button>
-        <button className='bg-rose-300 px-4 rounded-xl'>
+        <Link href={'/whoareyou'} className='bg-rose-300 px-4 rounded-xl'>
           Login
-        </button>
+        </Link>
       </div>
     </div>
   )

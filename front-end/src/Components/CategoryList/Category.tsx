@@ -9,30 +9,29 @@ function Category() {
       <h1 className="ms-3 text-2xl md:text-4xl font-medium my-6">Popular Categories</h1>
 
       <div className={styles.categories}>
-          <Link href={'/blog?cat=style'} className={`${styles.category} ${styles.style}`}>
-            <img src="banner02.jpg" alt="style.png" width={32} height={32} className={styles.image}/>
-            Style
+          <Link href={'/category?cat=makeup'} className={`${styles.category} ${styles.style}`}>
+            <Image src="/makeup.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            Makeup
           </Link>
-
-          <Link href={'/blog?cat=fashion'} className={`${styles.category} ${styles.fashion}`}>
-            <img src="banner02.jpg" alt="style.png" width={32} height={32} className={styles.image}/>
-            Fashion
+          <Link href={'/category?cat=invitation'} className={`${styles.category} ${styles.fashion}`}>
+            <Image src="/invitation.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            Invitation
           </Link>
-          <Link href={'/blog?cat=food'} className={`${styles.category} ${styles.food}`}>
-            <img src="banner02.jpg" alt="style.png" width={32} height={32} className={styles.image}/>
-            Food
+          <Link href={'/category?cat=catering'} className={`${styles.category} ${styles.food}`}>
+            <Image src="/catering.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            Catering
           </Link>
-          <Link href={'/blog?cat=travel'} className={`${styles.category} ${styles.travel}`}>
-            <img src="banner02.jpg" alt="style.png" width={32} height={32} className={styles.image}/>
-            Travel
+          <Link href={'/category?cat=video'} className={`${styles.category} ${styles.travel}`}>
+            <Image src="/video.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            Video
           </Link>
-          <Link href={'/blog?cat=culture'} className={`${styles.category} ${styles.culture}`}>
-            <img src="banner02.jpg" alt="style.png" width={32} height={32} className={styles.image}/>
-            Culture
+          <Link href={'/category?cat=mehandi'} className={`${styles.category} ${styles.culture}`}>
+            <Image src="/mehandi.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            Mehandi
           </Link>
-          <Link href={'/blog?cat=coding'} className={`${styles.category} ${styles.coding}`}>
-            <img src="banner02.jpg" alt="style.png" width={32} height={32} className={styles.image}/>
-            Coding
+          <Link href={'/category?cat=decoration'} className={`${styles.category} ${styles.coding}`}>
+            <Image src="/decoration.jfif" alt="Decoaration jfjf" width={32} height={32} className={styles.image}/>
+            Decoration
           </Link>
       </div>
     </div>
