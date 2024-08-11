@@ -1,25 +1,20 @@
 "use client";
-import UserLoginForm from "@/Components/UserLoginForm/page";
-import UserRegisterForm from "@/Components/UserRegisterForm/page";
-import VendorLogin from "@/Components/VendorLogin/page";
-import VendorRegistration from "@/Components/VendorRegistration/page";
-
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-function page() {
+function Page() {
   const [category, setCategory] = useState();
   const [exist, setExist] = useState();
   const router = useRouter();
 
   if (category == "customer" && exist == true) {
-    return router.push("/userLogin");
+    router.push("/userLogin");
   } else if (category == "customer" && exist == false) {
-    return router.push("/userRegister");
+    router.push("/userRegister");
   } else if (category == "vendor" && exist == true) {
-    return router.push("/vendorLogin");
+    router.push("/vendorLogin");
   } else if (category == "vendor" && exist == false) {
-    return router.push("/vendorRegister");
+    router.push("/vendorRegister");
   }
 
   if (category) {
@@ -76,4 +71,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
