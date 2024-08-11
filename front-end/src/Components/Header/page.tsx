@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <h1 className='italic'>Kamasuthra</h1>
+        <h1 className='italic'>Kamasuthra..</h1>
       </div>
       <div className={styles.menu}>
         <ul className='flex gap-14'>
