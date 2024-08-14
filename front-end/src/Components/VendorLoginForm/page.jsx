@@ -19,7 +19,7 @@ function VendorLoginForm(){
                 <img src="/vendor-login-img.jpg" alt="image" className="object-cover h-full w-full rounded-2xl"/>
             </div>
         </div>
-    )
+    )   
 }
 
 export default VendorLoginForm;
