@@ -16,7 +16,7 @@ function VendorLoginForm(){
                 <button className="border mt-3 w-72 py-1 bg-green-800 text-white rounded-lg">Login</button>
             </div>
             <div className="w-1/2 hidden md:block">
-                <img src="vendor-login-img.jpg" alt="image" className="object-cover h-full w-full rounded-2xl"/>
+                <img src="/vendor-login-img.jpg" alt="image" className="object-cover h-full w-full rounded-2xl"/>
             </div>
         </div>
     )

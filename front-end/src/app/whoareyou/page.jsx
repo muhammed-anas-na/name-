@@ -8,13 +8,13 @@ function Page() {
   const router = useRouter();
 
   if (category == "customer" && exist == true) {
-    router.push("/userLogin");
+    router.push("/auth/userLogin");
   } else if (category == "customer" && exist == false) {
-    router.push("/userRegister");
+    router.push("/auth/userRegister");
   } else if (category == "vendor" && exist == true) {
-    router.push("/vendorLogin");
+    router.push("/auth/vendorLogin");
   } else if (category == "vendor" && exist == false) {
-    router.push("/vendorRegister");
+    router.push("/auth/vendorRegister");
   }
 
   if (category) {
