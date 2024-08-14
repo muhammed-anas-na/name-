@@ -11,7 +11,7 @@ function VendorRegisterForm(){
         <div className="flex h-screen my-5 gap-5 overflow-hidden">
             <div className="flex flex-col items-start justify-center w-1/2 md:ms-28 ms-10">
                 <h1 className="flex-start font-bold text-3xl">Get Started</h1>
-                <p className="text-xs text-gray-500">Welcome to Kamasuthra, Let's create an account</p>
+                <p className="text-xs text-gray-500">Welcome to Kamasuthra, Let&aposs create an account</p>
                 <label htmlFor="name" className="mt-4 text-sm font-semibold">Name</label>
                 <input type="text" name="name" 
                 className="border rounded-lg focus:outline-0 focus:border-green-800 w-72" />
