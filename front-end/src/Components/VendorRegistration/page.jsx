@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from 'next/Link';
+import Link from 'next/link';
 
 function VendorRegisterForm() {
   const [name, setName] = useState("");
