@@ -15,11 +15,10 @@ function AddPhotography() {
         className="border rounded-lg focus:outline-0 focus:border-green-800 w-72"
       />
       <label htmlFor="phone" className="mt-4 text-sm font-semibold">
-        Contact
+        About
       </label>
-      <input
-      placeholder="(Optional)"
-        type="number"
+      <textarea
+        placeholder=""
         name="phone"
         className="border rounded-lg focus:outline-0 focus:border-green-800 w-72"
       />
