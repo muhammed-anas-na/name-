@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React, { useState } from "react";
-import AddPhotography from "../../Components/AddCategory/Photography/page";
+import AddServiceDetails from "../../Components/AddCategory/page";
 
 function AddServices() {
   const [service, setService] = useState("service");
@@ -10,30 +10,36 @@ function AddServices() {
         <div className="flex flex-col justify-center md:w-1/2">
           <h1 className="font-bold text-3xl">Add Services</h1>
           <p className="text-xs text-gray-500">
-           Select a service that you wish to add to you profile
+            Select a service that you wish to add to you profile
           </p>
 
           <div className="flex flex-col md:flex-row flex-wrap w-auto mt-3 md:me-5 gap-4">
             <div className="border md:w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("catering")}>Catering</button>
+              <button onClick={() => setService("catering")}>Catering</button>
             </div>
             <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("photography")}>Photography</button>
+              <button onClick={() => setService("photography")}>
+                Photography
+              </button>
             </div>
             <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("mehandi")}>Mehandi</button>
+              <button onClick={() => setService("mehandi")}>Mehandi</button>
             </div>
             <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("rental")}>Rental</button>
+              <button onClick={() => setService("rental")}>Rental</button>
             </div>
             <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("venue")}>Venue</button>
+              <button onClick={() => setService("venue")}>Venue</button>
             </div>
             <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("decoration")}>Decorations</button>
+              <button onClick={() => setService("decoration")}>
+                Decorations
+              </button>
             </div>
             <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={()=>setService("lights")}>Light and Sounds</button>
+              <button onClick={() => setService("lights")}>
+                Light and Sounds
+              </button>
             </div>
           </div>
         </div>
@@ -41,9 +47,13 @@ function AddServices() {
         <></>
       )}
 
-      {
-        service == "photography" ? (<AddPhotography/>) : (<></>)
-      }
+      {service == "photography" ?<AddServiceDetails service={"photography"} />:<></>}
+      {service == "catering" ? <AddServiceDetails service={"catering"} />:<></>}
+      {service == "mehandi" ? <AddServiceDetails service={"mehandi"} /> : <></>}
+      {service == "venue" ? <AddServiceDetails service={"venue"} /> : <></>}
+      {service == "rental" ? <AddServiceDetails service={"rental"} /> : <></>}
+      {service == "decoration" ? <AddServiceDetails service={"decoration"} />: (<></>)}
+      {service == "lights" ? <AddServiceDetails service={"lights and sound"} /> : <></>}
 
       <div className="w-1/2 hidden md:block">
         <img

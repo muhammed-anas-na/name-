@@ -1,10 +1,10 @@
 import React from "react";
-function AddPhotography() {
+function AddServiceDetails({service}) {
   return (
     <div className="flex flex-col items-start justify-center w-1/2 md:ms-28 ms-10">
       <h1 className="flex-start font-bold text-3xl">More details</h1>
       <p className="text-xs text-gray-500">
-        Tell us more about the photography service
+        Tell us more about the {service} service
       </p>
       <label htmlFor="min-rate" className="mt-4 text-sm font-semibold">
         Rate per day
@@ -39,4 +39,4 @@ function AddPhotography() {
   );
 }
 
-export default AddPhotography;
+export default AddServiceDetails;
