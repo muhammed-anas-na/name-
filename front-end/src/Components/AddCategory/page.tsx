@@ -1,5 +1,5 @@
 import React from "react";
-function AddServiceDetails({service}) {
+function AddServiceDetails({service}:{service:string}) {
   return (
     <div className="flex flex-col items-start justify-center w-1/2 md:ms-28 ms-10">
       <h1 className="flex-start font-bold text-3xl">More details</h1>
