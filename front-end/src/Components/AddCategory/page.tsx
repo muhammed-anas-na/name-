@@ -1,5 +1,12 @@
+"use client";
 import React from "react";
+import { useRouter } from "next/navigation";
 function AddServiceDetails({service}:{service:string}) {
+  const router = useRouter();
+  const handleAddService = ()=>{
+    router.push('/dashboard');
+  }
+  
   return (
     <div className="flex flex-col items-start justify-center w-1/2 md:ms-28 ms-10">
       <h1 className="flex-start font-bold text-3xl">More details</h1>
@@ -32,7 +39,7 @@ function AddServiceDetails({service}:{service:string}) {
       />
       <p className="text-xs text-gray-500">Showcase you previous work to attract more customers</p>
       
-      <button className="border mt-3 w-72 py-1 bg-green-800 text-white rounded-lg">
+      <button className="border mt-3 w-72 py-1 bg-green-800 text-white rounded-lg" onClick={handleAddService}>
         Continue
       </button>
     </div>
