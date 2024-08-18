@@ -11,7 +11,7 @@ function VendorRegisterForm() {
   const [businessNumber, setBusinessNumber] = useState("");
   const [otp, setOtp] = useState("");
   const [location, setLocation] = useState("");
-  const [step, setStep] = useState("finish");
+  const [step, setStep] = useState("personal");
   const [error, setError] = useState({
     name: false,
     phone: false,
@@ -201,9 +201,6 @@ function VendorRegisterForm() {
               <Link
                 href={"/add-services"}
                 className="border mt-4  w-full md:w-96 bg-green-800 text-white rounded-lg py-1 text-center"
-                onClick={() => {
-                  router.push("/add-services");
-                }}
               >
                 Continue
               </Link>

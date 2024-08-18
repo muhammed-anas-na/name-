@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* "tropicalPeach":"#FFC7B4",
+"celendon":"#B7CCBD",
+"silverBlue":"#8A9A99",
+"pinkChanpion":"#F0D8CC" */
 
 :root{
     --bg:white;

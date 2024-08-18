@@ -14,33 +14,38 @@ function AddServices() {
           </p>
 
           <div className="flex flex-col md:flex-row flex-wrap w-auto mt-3 md:me-5 gap-4">
-            <div className="border md:w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("catering")}>Catering</button>
-            </div>
-            <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("photography")}>
+            <button onClick={() => setService("catering")} className="border md:w-auto h-auto p-5 rounded-lg">
+              <h1>Catering</h1>
+            </button>
+            <button onClick={() => setService("photography")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>
                 Photography
-              </button>
-            </div>
-            <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("mehandi")}>Mehandi</button>
-            </div>
-            <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("rental")}>Rental</button>
-            </div>
-            <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("venue")}>Venue</button>
-            </div>
-            <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("decoration")}>
+              </h1>
+            </button>
+            <button onClick={() => setService("mehandi")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>Mehandi</h1>
+            </button>
+            <button onClick={() => setService("rental")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>Rental</h1>
+            </button>
+            <button onClick={() => setService("venue")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>Venue</h1>
+            </button>
+            <button onClick={() => setService("decoration")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>
                 Decorations
-              </button>
-            </div>
-            <div className="border w-auto h-auto p-5 rounded-lg">
-              <button onClick={() => setService("lights")}>
+              </h1>
+            </button>
+            <button onClick={() => setService("lights")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>
                 Light and Sounds
-              </button>
-            </div>
+              </h1>
+            </button>
+            <button onClick={() => setService("lights")} className="border w-auto h-auto p-5 rounded-lg">
+              <h1>
+                Honey moon
+              </h1>
+            </button>
           </div>
         </div>
       ) : (
