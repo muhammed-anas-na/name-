@@ -6,7 +6,7 @@ import React from "react";
 import Pagination from "../../Components/pagination/page";
 
 function CategoryPage() {
-  let service = "Catering"
+  let service = "Invitation"
   return (
     <>
       <Header />

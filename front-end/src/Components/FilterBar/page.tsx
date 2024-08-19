@@ -2,7 +2,7 @@ import React from 'react';
 
 function Filterbar(){
     return(
-        <div className='flex justify-around py-3 bg-amber-200 overflow-auto gap-10 px-5'>
+        <div className='flex justify-around py-3 bg-rose-200 overflow-auto gap-10 px-5'>
             <div>
                 <select name="" id="">
                     <option value="">All</option>
