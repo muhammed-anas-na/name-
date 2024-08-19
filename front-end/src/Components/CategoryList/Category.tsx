@@ -10,27 +10,27 @@ function Category() {
 
       <div className={styles.categories}>
           <Link href={'/category?cat=makeup'} className={`${styles.category} ${styles.style}`}>
-            <Image src="/makeup.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            <Image src="/makeup.jpg" alt="style.jpg" width={40} height={40} className="rounded-full object-cover"/>
             Makeup
           </Link>
           <Link href={'/category?cat=invitation'} className={`${styles.category} ${styles.fashion}`}>
-            <Image src="/invitation.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            <Image src="/invitation.jpg" alt="style.jpg" width={32} height={32} className={styles.image}/>
             Invitation
           </Link>
           <Link href={'/category?cat=catering'} className={`${styles.category} ${styles.food}`}>
-            <Image src="/catering.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            <Image src="/catering.jpg" alt="style.jpg" width={32} height={32} className={styles.image}/>
             Catering
           </Link>
           <Link href={'/category?cat=video'} className={`${styles.category} ${styles.travel}`}>
-            <Image src="/video.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            <Image src="/video.jpg" alt="style.jpg" width={32} height={32} className={styles.image}/>
             Video
           </Link>
           <Link href={'/category?cat=mehandi'} className={`${styles.category} ${styles.culture}`}>
-            <Image src="/mehandi.jfif" alt="style.png" width={32} height={32} className={styles.image}/>
+            <Image src="/mehandi.jpg" alt="style.jpg" width={32} height={32} className={styles.image}/>
             Mehandi
           </Link>
           <Link href={'/category?cat=decoration'} className={`${styles.category} ${styles.coding}`}>
-            <Image src="/decoration.jfif" alt="Decoaration jfjf" width={32} height={32} className={styles.image}/>
+            <Image src="/decoration.jpg" alt="Decoaration jfjf" width={32} height={32} className={styles.image}/>
             Decoration
           </Link>
       </div>

@@ -34,9 +34,6 @@
     background-color:#5e4fff31;
 }
 
-.image{
-    border-radius: 50%;
-}
 
 @media screen and (max-width:1024px) {
     .category{

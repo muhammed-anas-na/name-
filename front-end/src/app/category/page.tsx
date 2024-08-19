@@ -6,15 +6,15 @@ import React from "react";
 import Pagination from "../../Components/pagination/page";
 
 function CategoryPage() {
-  let service = "Invitation"
+  let service = "invitation"
   return (
     <>
       <Header />
       <div className="relative">
         <img
           className="w-full h-96 object-cover"
-          src={`${service}.jfif`}
-          alt={`${service}.jfif`}
+          src={`${service}.jpg`}
+          alt={`${service}.jpg`}
         />
         <h1 className="absolute inset-0 flex top-40 justify-center text-white font-extrabold text-2xl sm:text-4xl lg:text-5xl">
           {service}
